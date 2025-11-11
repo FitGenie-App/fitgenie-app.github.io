@@ -24,7 +24,7 @@ export default function Footer() {
               by 
               <span className="font-semibold text-white/80">Geek4AI</span>
               for
-              <span className="font-semibold text-fitgenie-light">Alibaba Jumpstarter ZPIRE Student AI Challenge</span>
+              <span className="font-semibold text-white">Alibaba Jumpstarter ZPIRE Student AI Challenge</span>
             </p>
           </div>
         </div>
