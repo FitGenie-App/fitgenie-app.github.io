@@ -2,7 +2,7 @@ import HeroPic from '../Assets/HeroPic.png'
 
 export default function HeroBanner() {
   return (
-    <section className="relative bg-gradient-to-b from-fitgenie-light via-blue-50 to-white h-[100vh] overflow-hidden" >
+    <section className="relative bg-gradient-to-b from-fitgenie-light via-blue-50 to-white h-[100lvh] overflow-hidden" >
       {/* Decorative Background Blobs */}
       <div className='absolute top-10 left-10 w-32 h-32 bg-fitgenie/20 rounded-2xl rotate-12 blur-sm'></div>
       <div className='absolute top-32 right-20 w-24 h-24 bg-blue-300/30 rounded-xl -rotate-12 blur-sm'></div>
@@ -22,7 +22,7 @@ export default function HeroBanner() {
               FitGenie
             </h1>
             <h2 
-              className='text-xl sm:text-2xl md:text-3xl lg:text-5xl xl:text-6xl font-semibold bg-gradient-to-r from-fitgenie-dark via-fitgenie to-blue-500 bg-clip-text text-transparent leading-tight drop-shadow-sm'
+              className='text-xl sm:text-2xl md:text-3xl lg:text-5xl xl:text-6xl font-semibold bg-gradient-to-r from-fitgenie-dark via-fitgenie-dark/70 to-fitgenie-dark bg-clip-text text-transparent leading-tight drop-shadow-sm'
               data-aos="fade-up"
               data-aos-delay="200"
             >
