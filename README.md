@@ -1,18 +1,93 @@
-# React + Vite
+# FitGenie Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive landing page for FitGenie - your AI-powered fitness companion. Built with React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+Made with ❤️ by **Geek4AI** for **Alibaba Jumpstarter ZPIRE Student AI Challenge**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Getting Started
 
-## React Compiler
+Follow these steps to clone and run the project on your local machine.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+### Prerequisites
 
-Note: This will impact Vite dev & build performances.
+Make sure you have the following installed:
+- **Node.js** (version 16 or higher) - [Download here](https://nodejs.org/)
+- **Git** - [Download here](https://git-scm.com/)
 
-## Expanding the ESLint configuration
+### Installation Steps
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/FitGenie-App/fitgenie-app.github.io.git
+   ```
+
+2. **Navigate to the project directory**
+   ```bash
+   cd fitgenie-app.github.io
+   ```
+
+3. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+4. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+5. **View the site**
+   - Open your browser and go to: `http://localhost:5173`
+   - The page will automatically reload when you make changes!
+
+### Build for Production
+
+To create an optimized production build:
+```bash
+npm run build
+```
+
+To preview the production build locally:
+```bash
+npm run preview
+```
+
+## 🛠️ Tech Stack
+
+- **React 19.2.0** - UI framework
+- **Vite 7.2.2** - Build tool with HMR (Hot Module Replacement)
+- **Tailwind CSS 3.9.11** - Utility-first CSS framework
+- **AOS (Animate On Scroll)** - Scroll animation library
+- **PostCSS & Autoprefixer** - CSS processing
+
+## 📁 Project Structure
+
+```
+fitgenie-app.github.io/
+├── src/
+│   ├── Components/
+│   │   ├── HeroBanner.jsx
+│   │   ├── Introduction.jsx
+│   │   ├── Features.jsx
+│   │   ├── ComparisonTable.jsx
+│   │   ├── ProductDescription.jsx
+│   │   ├── ProductComingSoon.jsx
+│   │   └── Footer.jsx
+│   ├── Assets/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── public/
+├── tailwind.config.js
+├── vite.config.js
+└── package.json
+```
+
+## 🤝 Contributing
+
+This project was developed by the **Geek4AI Team**:
+- Fiona
+- Michael
+- Nathan
+- Steven
+
