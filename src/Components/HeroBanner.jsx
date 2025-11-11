@@ -2,7 +2,7 @@ import HeroPic from '../Assets/HeroPic.png'
 
 export default function HeroBanner() {
   return (
-    <section className="relative bg-gradient-to-b from-fitgenie-light via-blue-50 to-white h-[100lvh] overflow-hidden" >
+    <section className="relative bg-gradient-to-b from-fitgenie-light via-blue-50 to-white h-[100dvh] overflow-hidden" >
       {/* Decorative Background Blobs */}
       <div className='absolute top-10 left-10 w-32 h-32 bg-fitgenie/20 rounded-2xl rotate-12 blur-sm'></div>
       <div className='absolute top-32 right-20 w-24 h-24 bg-blue-300/30 rounded-xl -rotate-12 blur-sm'></div>
