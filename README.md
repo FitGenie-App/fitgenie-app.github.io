@@ -91,3 +91,5 @@ This project was developed by the **Geek4AI Team**:
 - Nathan
 - Steven
 
+## 💌 Contact Us
+Email: [fitgenie.official.app@gmail.com](mailto:fitgenie.official.app@gmail.com)
