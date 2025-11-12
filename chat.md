@@ -208,7 +208,9 @@ ProductComingSoon:
 ```
 **Influence to Project:** Helped in deciding the suitable animation type for all necessary elements faster.
 
-> Note that some of the elements that is mentioned in the AI's response might not be found in the final landing page due to human editing.
+<br />
+
+> Note that some of the elements that are mentioned in the AI's response might not be found in the final landing page due to human editing.
 
 ## **🦖 Project Evolution**
 
