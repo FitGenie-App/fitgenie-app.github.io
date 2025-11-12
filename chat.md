@@ -99,6 +99,7 @@ Feature Grid:
 Mobile Optimization:
 - Breakpoint-based stacking and spacing.
 - Adaptive icon and text sizing for touch-friendly UX.
+```
 **Influence to Project:** Brought insight on how to structure the Key Features section with an appealing visual.
 
 <br/>
