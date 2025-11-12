@@ -2,9 +2,10 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import HeroBanner from './Components/HeroBanner';
 import ProductDescription from './Components/ProductDescription';
+import Introduction from './Components/Introduction';
 import Features from './Components/Features';
 import ComparisonTable from './Components/ComparisonTable';
-import Introduction from './Components/Introduction';
+import FAQ from './Components/FAQ';
 import ProductComingSoon from './Components/ProductComingSoon';
 import Footer from './Components/Footer';
 
@@ -21,10 +22,11 @@ function App() {
   return (
     <main className="min-h-screen bg-fitgenie-light font-sans">
       <HeroBanner />
-      <ProductDescription />
       <Introduction />
+      <ProductDescription />
       <Features />
       <ComparisonTable />
+      <FAQ />
       <ProductComingSoon />
       <Footer />
     </main>

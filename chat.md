@@ -5,9 +5,11 @@
 November 8, 2025 
 ```
 
+
 ## **🤖 AI Interaction Overview**
 
 The AI tool we employ is the Claude Sonnet 4.5 Agentic Model from the GitHub Copilot interface. The roles of this tool are technical troubleshooting, code generation, and refinement.
+
 
 ## **🗣️ Prompting Details**
 ```md
@@ -29,7 +31,7 @@ Responsiveness: Mobile-first design with adaptive text alignment and image scali
 
 Styling: Uses FitGenie’s custom Tailwind color palette for a polished, modern look.
 ```
-**Influence to Project:** Significantly boost the layouting and styling of the hero section, thereby making an engaging hook upon entering the site.
+**Influence to Project:** Significantly boost the layouting and styling of the "Hero Banner" section, thereby making an engaging hook upon entering the site.
 
 <br/>
 
@@ -61,7 +63,7 @@ Solution Section:
 Mobile Optimization:
 - Breakpoint-based stacking and layout switching.
 ```
-**Influence to Project:** Brought insight on how to structure the Introduction section with an appealing visual.
+**Influence to Project:** Brought insight on how to structure the "Introduction" section with an appealing visual.
 
 <br/>
 
@@ -88,8 +90,8 @@ Feature Grid:
     - Gradient icon circles with hover animations.
     - Clean typography and spacing.
     - Icons:
-        - 😊 Gamified Experience
-        - ✓ AI Pose Tracker
+        - Gamified Experience
+        - AI Pose Tracker
         - Guidance Videos
         - Personalized Gym Planner
 
@@ -97,7 +99,7 @@ Mobile Optimization:
 - Breakpoint-based stacking and spacing.
 - Adaptive icon and text sizing for touch-friendly UX.
 ```
-**Influence to Project:** Brought insight on how to structure the Key Features section with an appealing visual.
+**Influence to Project:** Brought insight on how to structure the "Key Features" section with an appealing visual.
 
 <br/>
 
@@ -126,6 +128,53 @@ Mobile Optimization:
 ```
 **Influence to Project:** Helped implement better visuals and provide insight on how to implement this section on mobile view.
 
+```md
+# Prompt:
+Given the entire project, implement animation on scroll using the AOS package
+
+# Summary of the Response:
+Setup:
+- Installed aos package.
+- Initialized in App.jsx with:
+    - `duration: 1000ms`
+    - `easing: ease-in-out`
+    - `once: true`
+    - `mirror: false`
+
+HeroBanner:
+- `fade-up` for text elements with staggered delays.
+- `fade-left` for mobile app image.
+
+ProductDescription:
+- `fade-up` for header.
+- Alternating fade-right / fade-left for steps.
+- `zoom-in` for tech stack.
+- Delayed fade-up for tech cards.
+
+Introduction:
+- `fade-up` for header.
+- `zoom-in` for challenge.
+- Alternating fade-right / fade-left for barriers.
+- `flip-left` / `flip-right` for stats.
+- `zoom-in-up` for solution cards.
+
+Features:
+- `fade-up` for header.
+- Staggered fade-up for feature cards.
+
+ComparisonTable:
+- `fade-up` for header.
+- `zoom-in` for desktop table.
+- Staggered fade-up for mobile cards.
+
+ProductComingSoon:
+- `zoom-in` for badge.
+- Delayed fade-up for heading and description.
+- `flip-left` for feature highlights.
+```
+**Influence to Project:** Helped in deciding the suitable animation type for all necessary elements faster.
+
+> Note that some of the elements that is mentioned in the AI's response might not be found in the final landing page due to human editing.
 
 ## **🦖 Project Evolution**
 
