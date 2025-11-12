@@ -160,6 +160,8 @@ Mobile Optimization:
 ```
 **Influence to Project:** Helped implement better visuals and provide insight on how to implement this section on mobile view.
 
+<br />
+
 ```md
 # Prompt:
 Given the entire project, implement animation on scroll using the AOS package
