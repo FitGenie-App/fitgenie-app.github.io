@@ -1,12 +1,9 @@
-<div align="center">
-
 # **📄 Landing Page Vibe-Coding Documentation**
 ```md
 # Made by the Geek4AI Team #
 ~ Fiona, Michael, Nathan, Steven ~
 November 8, 2025 
 ```
-</div>
 
 ## **🤖 AI Interaction Overview**
 
