@@ -4,7 +4,7 @@ A modern, responsive landing page for FitGenie - your AI-powered fitness compani
 
 Made with ❤️ by **Geek4AI** for **Alibaba Jumpstarter ZPIRE Student AI Challenge**
 
-Access the site directly: 🔗 <a href="https://fitgenie-app.github.io/" target="_blank" rel="noopener noreferrer">https://fitgenie-app.github.io</a>
+Access the site directly: 🔗 [https://fitgenie-app.github.io](https://fitgenie-app.github.io/)
 
 ## 🚀 Getting Started
 
